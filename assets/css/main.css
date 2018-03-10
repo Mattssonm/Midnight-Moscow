@@ -1,27 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background-color: gray;
+/*  overflow: hidden;*/
 }
 
 main {
   margin: auto;
-  width: 60%;
-  background-image: url(../images/26653595_10157077483557619_1230406604_o.jpg);
+  display: block;
+  width: 100%;
+  min-height: 800px;
+  background: url(../images/bildmedlogga.jpg) no-repeat;
+  background-size: cover;
 }
 
-i {
-  color: deeppink;
-}
-
-footer {
+#socialBtns {
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  width: 100%;
+  background-color: #450000;
+  padding-bottom: 20px;
 }
 
 i {
   transition-property: transform;
   transition-duration: 0.5s; 
   margin: 0 20px;
+  color: white;
 }
 
 i:hover {
