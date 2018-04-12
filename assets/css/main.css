@@ -1,27 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
-  background-color: gray;
-/*  overflow: hidden;*/
+  background-color: #100e0f;
 }
 
 main {
+	position: relative;
   margin: auto;
-  display: block;
-  width: 100%;
-  min-height: 800px;
-  background: url(../images/bildmedlogga.jpg) no-repeat;
+  max-width: 600px;
+  min-height: 600px;
+  height: auto;
+  background: url(../images/loggasvartbakgrund.jpg) no-repeat center;
   background-size: cover;
+  overflow: hidden;
 }
 
 #socialBtns {
   text-align: center;
+	position: absolute;
   width: 100%;
-  background-color: #450000;
-  padding-bottom: 20px;
+	bottom: 5vh;
 }
 
 i {
@@ -32,6 +28,5 @@ i {
 }
 
 i:hover {
-  transform:rotate(15deg);
+  transform: rotate(15deg);
 }
-
